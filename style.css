@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-section{
+  max-width: 100%;
+  height: 4500px;
+}
+.navigation-section{
+  width: 100%;
+  margin-top: 20px;
+  background-color: white;
+  display: flex;
+  height: 50px;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  position: relative;
+  
+  
+}
+.logopic{
+
+ width: 35px;
+ height: 35px;
+ position: absolute;
+ left: 10px;
+ top: 5px;
+}
+.logoname{
+
+position: absolute;
+margin-left: 55px;
+font-size: 25px;
+top: 10px;
+}
+.logosection{
+
+}
+.buttonsection{
+
+}
+.signupbutton{
+  width: 70px;
+  height: 25px;
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid black;
+  margin-right: 10px;
+
+}
+.loginbutton{
+  width: 70px;
+  height: 25px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  margin-top: 12px;
+  margin-right: 20px;
+}
+.big{
+  max-width: 100%;
+  height: 1000px;
+}
+.secondbody{
+  height: 100%;
+  width: 600px;
+  position: relative;
+  background-image: url(images/tree.jpg);
+background-size:cover ;
+  background-repeat: no-repeat;
+
+
+
+}
+.secondbody2{
+  height: 100%;
+  width: 1000px;
+  position: relative;
+  background-image: url(images/line.jpg);
+background-size:cover ;
+  background-repeat: no-repeat;
+}
+.dateflex{
+  position: absolute;
+   display: flex;
+   width: 400px;
+   justify-content: space-between;
+   top: 140px;
+   left: 50px;
+}
+.datecontent{
+  height: 90px;
+   width: 90px; 
+   text-align: center;
+    background-color: white; 
+    border: 1px solid rgba(0, 0, 0, 0.116);
+     border-radius: 10px;
+     padding: 10px;
+}
+.number{
+  font-size: 50px;
+  font-weight: bold;
+}
+.day{
+  opacity: .7;
+  position: relative;
+  bottom: 5px;
+}
+.ourvision{
+  width: 11opx;
+  height: 40px;
+  border: 1px solid white;
+  background-color: transparent;
+  position: absolute;
+  padding: 10px;
+  color: white;
+  left: 50px;
+  bottom: 250px;
+  border-radius: 50px;
+}
+.ourvisionpara{
+  font-size: 25px;
+  position: absolute;
+  color: white;
+  left: 50px;
+  bottom: 100px;
+}
+.blackdiv1{
+  height: 330px;
+  width: 310px;
+  background-color: rgb(46, 39, 39);
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.226);
+}
+.blackdiv2{
+  height: 330px;
+  width: 310px;
+  background-color: rgb(46, 39, 39);
+  position: relative;
+  border-radius: 10px;
+  left: 270px;
+  bottom: 280px;
+  rotate: -7deg;
+  border: 1px solid rgba(0, 0, 0, 0.226);
+}
+.uname{
+  padding-left: 100px;
+}
+.blackdiv3{
+  height: 410px;
+  width: 240px;
+  background-color: rgb(46, 39, 39);
+  position: relative;
+  border-radius: 10px;
+  left: 485px;
+  bottom: 500px;
+  rotate: 7deg;
+  border: 1px solid rgba(0, 0, 0, 0.226);
+}
+em{
+  color: aquamarine;
+}
+.thirdbody{
+width:100%;
+height: 900px;
+background-color: white;
+position: relative;
+bottom:1320px;
+}
+.fourth{
+  width: 100%;
+  height: 700px;
+  background-color: white;
+  position: relative;
+bottom: 1100px;
+}
+.fifth{
+  width: 100%;
+  height: 700px;
+  background-image: url(images/lastbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  bottom: 1300px;
+}
+.last{
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  position: relative;
+  bottom: 1300px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.place{
+padding-left: 10px;
+}
